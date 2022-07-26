@@ -1,0 +1,10 @@
+<div class="meme">
+  <div class="meme__item"
+       *ngFor="let meme of listMeme"
+       (click)="getMeme(meme)">
+    <p  class="meme__item-name">{{meme.name}}</p>
+    <p class="meme__item-id">ID: {{meme.id}}</p>
+    <p class="meme__item-count">Count: {{meme.box_count}}</p>
+  </div>
+</div>
+
