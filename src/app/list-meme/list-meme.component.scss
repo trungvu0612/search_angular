@@ -17,15 +17,10 @@
     border-radius: 5px;
     padding: 2px 4px;
     transition: 0.3s;
+    text-decoration: none;
     &-name{
       width: 40%;
       font-weight: bold;
-    }
-    &-id{
-      width: 30%;
-    }
-    &-count{
-      width: 20%;
     }
     &:hover{
       opacity: 0.6;

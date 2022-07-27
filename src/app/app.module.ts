@@ -3,13 +3,15 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { ListStudentComponent } from './list-student/list-student.component';
 import {HttpClientModule} from "@angular/common/http";
+import { DetailMemeComponent } from './detail-meme/detail-meme.component';
+import { ListMemeComponent } from './list-meme/list-meme.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ListStudentComponent
+    DetailMemeComponent,
+    ListMemeComponent
   ],
   imports: [
     BrowserModule,
